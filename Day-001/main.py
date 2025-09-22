@@ -16,12 +16,12 @@ print("bye")
 a= 4 # a is integer
 b= 6.5 # b is float
 c= True # c is boolean value
-name = "Rajveer" # name is string
-print((a+b-c)/2*5, name)
+d = "Rajveer" # name is string
+print((a+b-c)/2*5, d)
 
-d = None
+e = None
 
-#Chapter -3 : Operators
+#Chapter-3 : Operators
 # Airthmatic Operators (+,-,*,/, etc)
 print("----- Airthmatic Operator -----")
 print(a+b)

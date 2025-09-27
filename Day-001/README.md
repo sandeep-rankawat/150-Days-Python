@@ -1,29 +1,39 @@
-# Day-1 : Python Basics and Introduction
-## Chapter-1 : Introductin
-    import pyjokes # importing pyjokes module in current file
-    print("Hello Rajveer") # print Hello Rajveer
-    print(pyjokes.get_joke()) #print joke form pyjokes module
+# Python Day 1 : Basics and Introduction
+Python Day 1 typically covers the fundamental introduction to Python programming and essential basics that beginners need to know. Here's what students usually learn on Day 1:
+## Chapter-1 : Introduction
+Basic intro like what can we do in python and how we write it.
+```python
+import pyjokes # importing pyjokes module in current file
+print("Hello Rajveer") # print Hello Rajveer
+print(pyjokes.get_joke()) #print joke form pyjokes module
+```
+
 
 ### Comments
-    # This is an example of single line comment in python
-    ''' This is an
-    example of
-    multi line comment
-    in python '''
+```python
+# This is an example of single line comment in python
+''' This is an
+example of
+multi line comment
+in python '''
+```
 
 In python there is two way to write comment single line and multi line comment and multi line comment also can be written in two way first is using single inverted commas (') and second is using double inverted commas (").
 
 ## Chapter-2 : Variables and Data Types
 Python is dynamically type language that it auto detect the type of variable when running. Example :
-
-    a = 4  # a is integer 
+```python
+a = 4  # a is integer 
+```
 here a is integer type but we didn't specifically tells that it is not integer but python detects it is an integer same goes for
 
-    b = 6.5 # b is float
-    c = True # c is boolean
-    d = "Rajveer" # d is string
-    print((a+b+c)/2*5, d)
-    e = None
+```python
+b = 6.5 # b is float
+c = True # c is boolean
+d = "Rajveer" # d is string
+print((a+b+c)/2*5, d)
+e = None
+```
 
 ## Chapter-3 : Operators
 ### Airthmatic Operators
@@ -54,5 +64,5 @@ here a is integer type but we didn't specifically tells that it is not integer b
 2. Or (or)
 3. Not (not)
 
-##
-### - Day 1 is completed
+
+# Day 1 is completed
